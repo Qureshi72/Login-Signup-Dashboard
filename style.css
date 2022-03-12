@@ -1,0 +1,134 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('/background.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+}
+form.form{
+    box-shadow: 0 2rem 4rem #000;
+    padding: 30px;
+    width: 400px;
+    border-radius: 5px;
+    margin: 100px auto;
+}
+.form p.login{
+    color: #fff;
+    font-size: 35px;
+    letter-spacing: 2px;
+    line-height: 1.7;
+    text-align: center;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+}
+input{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 14px 5px;
+    color: #000;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+input:focus{
+    outline: none;
+}
+.forget{
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+input[type='submit']{
+    width: 100%;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+input[type='submit']:disabled{
+    background-color: #333;
+    cursor: initial;
+}
+p.login-with{
+    text-align: center;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.social .facebook{
+    background-color: #074888;
+    padding: 10px 15px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+.social .facebook i,.social .instagram i{
+   color: #fff;
+   margin-right: 10px;
+   font-size: 18px;
+  
+}
+.social .instagram{
+    background-color: #e74c3c;
+    padding: 10px 15px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 17px;
+
+}
+
+.sign-up{
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.sign-up span a{
+    color: #e74c3c;
+}
+.email-input{
+    border: 2px solid #fff;
+}
+.pass-input{
+    border: 2px solid #fff;
+}
+.name-input{
+    border: 2px solid #fff;
+}
+.cpass-input{
+    border: 2px solid #fff;
+}
